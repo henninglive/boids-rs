@@ -4,6 +4,8 @@ Boids represent a flock of birds with coordinated group behaviour.
 Several rules applied to each boid in turn.
 These rules allow the flock to exhibit various behavioural characteristics.
 
+![alt text](boids.gif)
+
 #### Build and Run
 1. Ensure you have current version of `cargo` and [Rust](https://www.rust-lang.org/) installed
 2. Clone the project `$ git clone https://github.com/henninglive/boids-rs/ && cd boids-rs`
