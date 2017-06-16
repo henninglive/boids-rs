@@ -1,0 +1,9 @@
+[package]
+name = "boids"
+version = "0.1.0"
+authors = ["Henning Ottesen <henning@live.no>"]
+
+[dependencies]
+amethyst = "0.4.3"
+rand = "0.3"
+nalgebra = "0.12"
