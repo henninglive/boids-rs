@@ -1,9 +1,10 @@
 [package]
 name = "boids"
 version = "0.1.0"
+edition = "2018"
 authors = ["Henning Ottesen <henning@live.no>"]
 
 [dependencies]
-amethyst = "0.4.3"
-rand = "0.3"
-nalgebra = "0.12"
+amethyst = {version = "0.15", features = ["no-slow-safety-checks", "vulkan"]}
+log = { version = "0.4", features = ["std", "serde"] }
+rand = "^0.7"

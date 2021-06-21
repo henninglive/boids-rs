@@ -1,2 +1,7 @@
-target/
+# Rust
+/target/
 **/*.rs.bk
+
+# JetBrains
+.idea/
+*.iml
