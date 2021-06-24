@@ -32,5 +32,5 @@ See [Amethyst README](https://github.com/amethyst/amethyst/blob/main/README.md).
    with newer versions of rustc. You can override rustc version for current directory with following command 
    `$ rustup default 1.47.0`.
 2. Build the project `$ cargo build --release` (NOTE: There is a large performance difference when compiling without optimizations, so I recommend alwasy using `--release` to enable to them)
-3. Once complete, the binary will be located at `target/release/boids-rs`
+3. Once complete, the binary will be located at `target/release/boids`
 4. Use `$ cargo run --release` to build and then run, in one step
